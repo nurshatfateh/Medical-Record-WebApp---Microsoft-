@@ -63,13 +63,8 @@
               class="nav-item nav-link active mx-lg-4 text-white"
               >Home</a
             >
-
-            <a
-            href="medications.html"
-            class="nav-item nav-link active mx-lg-4 text-white"
-            >Medications</a
-          >
             
+
             <a
               href="myprofile.html"
               class="nav-item nav-link mx-lg-4 text-white"
@@ -88,10 +83,9 @@
 
     <!-- Banner -->
 
-    <div class="hero-image ho" data-aos="zoom-in">
+    <div class="hero-image ho1" data-aos="zoom-in">
       <div class="hero-text">
-        <h1> Welcome to the medical record app, an easy way to organize and keep track of your
-          medical records.</h1>
+        <h1> Medications</h1>
       </div>
     </div>
 
@@ -102,21 +96,22 @@
 
             <!-- Adding a button to add a new medical record -->
       <div class="container">
-        <h2>Add a new medical record</h2>
+        <h2>Add a new medication</h2>
 
         <!-- Input medical record information -->
         <div class="form-group">
-          <label for="usr">Date:</label>
-          <input type="text" class="form-control" id="date">
+          <label for="usr">Medication</label>
+          <input type="text" class="form-control" id="med">
         </div>
+
         <div class="form-group">
-          <label for="pwd">Doctor's Name:</label> 
-          <input type="text" class="form-control" id="docName">
-        </div>
+            <label for="usr">Details</label>
+            <input type="text" class="form-control" id="details">
+          </div>
         
         <button
           type="button"
-          onclick="addRecord()"
+          onclick="addMedication()"
           class="btn btn-primary btn-lg mt-2 pt-1"
           style="padding-left: 2.5rem; padding-right: 2.5rem"
         >
@@ -125,42 +120,24 @@
      
           <!-- cards -->
           <div class=" mb-4 mt-4" >
-            <div class="card mb-2 border-primary" id="rec123">
+            <div class="card mb-2 border-primary" id="rec1234">
               <h2
                 class="card-header bg-white border-bottom border-primary text-center"
                 data-aos="zoom-in"
               >
-                Medical Records
+                Medications
               </h2>
 
           <a href="details.html" style="text-decoration: none"
           class="text-dark "> <div class="card-body bg-white" data-aos="zoom-in">
              <div class="p-3 mt-2 mb-2 border bg-white border-primary">
                <h4 class="mb-3">Record ID: 0</h4>
-
-               <h6 class="d-inline-block">Date: 09/02/2019</h6><br>
-               <h6 class="d-inline-block">Doctor name: Dr.Shane Watson </h6>
+               <h6 class="d-inline-block">Name of Medication: Ibriprofen</h6><br>
+               <h6 class="d-inline-block">Details about medication on it should be used: Should be taken twice a day.</h6><br>
                <br />
-
-   
              </div>
            </div>
          </a>
-         <a href="details.html" style="text-decoration: none"
-         class="text-dark "> <div class="card-body bg-white" data-aos="zoom-in">
-            <div class="p-3 mt-2 mb-2 border bg-white border-primary">
-              <h4 class="mb-3">Record ID: 1</h4>
-
-              <h6 class="d-inline-block">Date: 12/02/2020</h6><br>
-              <h6 class="d-inline-block">Doctor name: Dr. Shane Watson</h6>
-              <br />
-
-  
-            </div>
-          </div>
-        </a>
-  
-    
                 </div>
               </div>
             </div>

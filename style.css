@@ -4,9 +4,15 @@ html {
 }
 
 .ho {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/doctorVisit.jpeg");
+  height: 100%;
+}
+
+.ho1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/elec.png");
   height: 100%;
 }
+
 
 .or {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/0.jpg");
@@ -63,4 +69,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.button {
+  margin-top: block;
 }
